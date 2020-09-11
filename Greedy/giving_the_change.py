@@ -1,3 +1,5 @@
+# Find the minimum coin count for changing
+
 n = 1260
 count = 0
 
