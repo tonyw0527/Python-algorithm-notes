@@ -1,7 +1,16 @@
-# Data Structure
-
-# Stack
+'''
+# Math
+'''
+# Combination
 from collections import deque
+from itertools import combinations
+arr = [1, 2, 3, 4, 5, 6, 7]
+cases = list(combinations(arr, 3))  # len(arr) C 3의 조합
+
+'''
+Data Structure
+'''
+# Stack
 stack = []
 stack.append(1)
 stack.pop()
@@ -12,7 +21,9 @@ queue.append(1)
 queue.popleft()
 list(queue)
 
+'''
 # Algorithm
+'''
 # Recusive function
 
 
